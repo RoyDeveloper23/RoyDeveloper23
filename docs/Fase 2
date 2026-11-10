@@ -1,0 +1,49 @@
+# Fase 2: Planificación y Diseño del Perfil de GitHub
+
+## 1. Estructura del Perfil
+
+A continuación se define el esquema secuencial del `README.md` principal, priorizando el impacto visual inmediato, la comprobación de habilidades técnicas y la navegación fluida:
+
+1. **Presentación (Hero Section):** Saludo, nombre completo, rol técnico principal (*Full-Stack Developer*), afiliación académica (ESPOL) e insignias de estado.
+2. **Sobre mí:** Párrafo sintético con propuesta de valor, áreas de especialización y enfoque de desarrollo.
+3. **Habilidades y tecnologías:** Clasificación organizada por áreas (*Frontend*, *Backend & APIs*, *Bases de Datos*, *Entorno & DevOps*) utilizando insignias estandarizadas.
+4. **Proyectos destacados:** Fichas de proyectos relevantes con descripción del problema, stack técnico, funcionalidades y enlaces al repositorio y demostración en vivo.
+5. **Actividad y métricas:** Tarjetas dinámicas de estadísticas de GitHub en modo oscuro.
+6. **Contacto:** Enlaces directos a perfiles profesionales y correo.
+
+---
+
+## 2. Estrategia de Commits
+
+Para evitar concentrar el trabajo en un único commit y asegurar un historial trazable y descriptivo, se aplica la convención de **Commits Convencionales** (`tipo: descripción`):
+
+* `docs: define estructura inicial y esquema en FASE_2_PLANIFICACION.md`
+* `docs: agrega diseño de contenido y fichas de proyectos destacados`
+* `feat: incorpora cabecera con insignias de rol y presentacion personal`
+* `feat: agrega tabla categorizada de habilidades y tecnologías`
+* `feat: agrega fichas de proyectos destacados con enlaces a repositorios y demos`
+* `feat: integra tarjetas de estadisticas de github y seccion de contacto`
+* `style: ajusta espaciado y alineacion de insignias para modo oscuro y movil`
+* `fix: corrige enlaces rotos hacia repositorios y demostraciones`
+
+---
+
+## 3. Diseño del Contenido por Sección
+
+### Sección 1: Presentación (Hero)
+* **Información que incluirá:** Nombre (`Roy García`), rol técnico (`Full-Stack Developer`), institución (`ESPOL`) y ubicación (`Guayaquil, Ecuador`).
+* **Información que evitará:** Frases motivacionales genéricas o bloques extensos de texto no relacionados con el perfil profesional.
+* **Formato:** Título `#`, texto en negrita e insignias de shields.io (`for-the-badge`).
+* **Enlaces externos necesarios:** Ninguno en esta sección.
+* **Facilidad de lectura rápida:** Uso de insignias de color contrastante que permiten identificar el perfil en menos de 3 segundos.
+
+### Sección 2: Sobre mí
+* **Información que incluirá:** Formación académica en Ingeniería en Computación, especialidad en aplicaciones web escalables y tipado estricto con TypeScript/React, además de interés en optimización y machine learning.
+* **Información que evitará:** Detalles de vida personal o aficiones no técnicas.
+* **Formato:** Párrafo descriptivo breve con palabras clave en negrita.
+* **Enlaces externos necesarios:** Ninguno.
+* **Facilidad de lectura rápida:** Máximo 4 líneas de longitud con términos técnicos destacados.
+
+### Sección 3: Habilidades y tecnologías
+* **Información que incluirá:** Stack categorizado en Frontend (`TypeScript`, `React`, `Next.js`, `Material UI`, `Tailwind`), Backend (`.NET`, `C#`, `Node.js`, `Express`, `Python`), Bases de Datos (`PostgreSQL`, `Supabase`, `SQL Server`) y DevOps/Entorno (`Git`, `GitHub`, `Docker`, `Linux`, `VS Code`).
+* **Información que evitará:** Porcentajes arbitrarios de dominio (ej. *8
